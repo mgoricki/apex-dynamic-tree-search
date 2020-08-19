@@ -2,10 +2,10 @@
 
 This Item Plug-In enables you to create dynamic search for APEX tree regions.
 
-#Usage
+# Usage
 To use it create new page item of type Dynamic Tree Search [Plug-In].
 
-#Properties
+# Properties
 
 - **Required Tree Region Static ID** - Static ID of tree region that is filtered by item value. It should be the same as Static ID property of tree region.
   - Dynamic Tree Search Item properties
