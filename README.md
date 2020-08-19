@@ -18,5 +18,7 @@ To use it create new page item of type Dynamic Tree Search [Plug-In].
 
 ## Version 1.0.0
 Tested on APEX 5.0.0.00.31, 5.0.1.00.06
+
 Released on July 15, 2015
+
 Updated on August 16, 2020 (added placeholder) 
