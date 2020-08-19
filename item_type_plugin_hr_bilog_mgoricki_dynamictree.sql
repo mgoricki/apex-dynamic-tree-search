@@ -54,7 +54,7 @@ wwv_flow_api.create_plugin(
 'BEGIN',
 '  -- render item',
 '  sys.htp.prn(''<input id="''||p_item.name||''" type="text" name="''||apex_plugin.get_input_name_for_page_item(p_is_multi_value => false)||''" class="''||p_item.element_css_classes||''"  size="''||p_item.element_width||''" maxlength="''||p_item.element_max_len'
-||'gth||''" ''||p_item.element_attributes||'' value="''||sys.htf.escape_sc(p_value)||''" />'');',
+||'gth||''" ''||p_item.element_attributes||'' value="''||sys.htf.escape_sc(p_value)||''" placeholder="''||p_item.placeholder||''" />'');',
 '  ',
 '  -- add JS code',
 '  apex_javascript.add_library(p_name      => ''hr.bilog.mgoricki.searchtree''    ',
